@@ -823,6 +823,11 @@ pino-std-serializers@^7.0.0:
     sonic-boom "^4.0.1"
     thread-stream "^4.0.0"
 
+postgres@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/postgres/-/postgres-4.1.1.tgz#19f4b317d6fb7aac1ed4a9f7550957ddadee65da"
+  integrity sha512-1kJDojqNZC+iTHHXh6eif0J98LUtyLAePe/qkW1GK35eh2JixlsAiIKq3FGI+xqI+SUGTNodzf7TScVeIIyUug==
+
 process-warning@^5.0.0, process-warning@^5.1.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/process-warning/-/process-warning-5.1.1.tgz#9c7f34dd637100966be7d32661831ea328ea776b"
