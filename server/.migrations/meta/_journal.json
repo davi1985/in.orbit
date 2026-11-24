@@ -8,6 +8,13 @@
       "when": 1795517271011,
       "tag": "0000_tiny_molten_man",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1795517639940,
+      "tag": "0001_lumpy_wildside",
+      "breakpoints": true
     }
   ]
 }
