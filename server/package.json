@@ -18,6 +18,7 @@
     "typescript": "5.5.4"
   },
   "dependencies": {
+    "@paralleldrive/cuid2": "^3.3.0",
     "drizzle-orm": "^0.45.4",
     "fastify": "^5.12.8",
     "postgres": "^4.1.1",
