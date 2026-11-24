@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/http/server.ts"
+    "dev": "tsx --env-file .env watch src/http/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "drizzle-orm": "^0.45.4",
-    "fastify": "^5.12.8"
+    "fastify": "^5.12.8",
+    "zod": "^4.6.7"
   }
 }
