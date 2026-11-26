@@ -1,1 +1,3 @@
-export const App = () => <h1>Hello World</h1>
+export const App = () => (
+  <h1 className="bg-black text-white text-xl">Hello World</h1>
+)
