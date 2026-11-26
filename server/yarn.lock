@@ -468,6 +468,14 @@
     ajv-formats "^3.0.1"
     fast-uri "^4.0.0"
 
+"@fastify/cors@^11.4.3":
+  version "11.4.3"
+  resolved "https://registry.yarnpkg.com/@fastify/cors/-/cors-11.4.3.tgz#56418e5cdd01723227a1c209593c965d5bf6114f"
+  integrity sha512-6NNFNR1i9t1oG1WlQftwc2ugElFm4cG75ylYyGNiKKiyxlVGueneup9MQ9Nd3eI4lT6kVOJaxV1Jqa727/E4jg==
+  dependencies:
+    fastify-plugin "^6.0.0"
+    toad-cache "^3.7.0"
+
 "@fastify/deepmerge@^3.1.0":
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/@fastify/deepmerge/-/deepmerge-3.2.4.tgz#6e49db0796e5c50fba65cbf19267911988ba285b"
@@ -741,6 +749,11 @@ fast-uri@^4.0.0:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/fast-uri/-/fast-uri-4.2.3.tgz#4f0f696864eab654e1bd0aa2557bd68f61b3a0e0"
   integrity sha512-I1PXwP5eAhlNlcdpjt9CgB59op2ZvZfxw+BkqGFVIUOgNpCVTcTqp3HhTX7brxj5vsip+nSY4nTvff+eIA76hg==
+
+fastify-plugin@^6.0.0:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-6.0.1.tgz#c74d5e3b498612d2e2111336ea8099eb962dfb5e"
+  integrity sha512-4wW4RxSmvPXLrh5mgQEiu43qU3bw44N2ss4FTkTkQIbprUhE+/s43QX0j/ttcztdWK7PEkHqVthdc5GdEGDvjA==
 
 fastify-type-provider-zod@^7.0.0:
   version "7.0.0"

@@ -1,3 +1,4 @@
+import fastifyCors from '@fastify/cors'
 import fastify from 'fastify'
 import {
   serializerCompiler,
@@ -11,6 +12,7 @@ import { getWeekSummaryRoute } from './routes/get-week-summary'
 
 const app = fastify().withTypeProvider<ZodTypeProvider>()
 
+app.register(fastifyCors, { origin: '*' })
 app.setValidatorCompiler(validatorCompiler)
 app.setSerializerCompiler(serializerCompiler)
 
