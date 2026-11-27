@@ -2,9 +2,9 @@ import { CheckCircle2, Plus } from 'lucide-react'
 import { InOrbitIcon } from './in-orbit-icon'
 import { Button } from './ui/button'
 import { DialogClose } from './ui/dialog'
+import { OutlineButton } from './ui/outline-button'
 import { Progress, ProgressIndicator } from './ui/progress-bar'
 import { Separator } from './ui/separator'
-import { OutlineButton } from './ui/outline-button'
 
 export const Summary = () => {
   return (
